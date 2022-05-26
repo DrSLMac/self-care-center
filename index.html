@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <title>Self Care Center</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-  
+    <br>
+      <h1>✨Self Care Center✨</h1>
+    <br>
+    <br>
+    <br>
+
+      <section class="what-message">
+        <h2>What type of message?</h2>
+      </section>
+
+      <section class="box">
+
+        <form class="input-label" action="/assets/data.js" method="get">
+          <div id="input-label">
+            <input type="radio" id="affirmation" name="random-message" value="affirmation"
+                   checked>
+            <label for="affirmation"><em>affirmation</em></label>
+            <span style="display:inline-block;margin-left:200px"></span>
+          </div>
+          <div id="input-label">
+            <input type="radio" id="mantra" name="random-message" value="mantra">
+            <label for="dewey"><em>mantra</em></label>
+          </div>
+
+        </form>
+        <div id="blue-button">
+          <input class="receive-message" type="submit" value="Receive Message">
+        </div>
+
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <section class="second-box">
+        <img src="assets/meditate.svg" alt="person in meditation">
+      </section>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
