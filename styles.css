@@ -45,7 +45,7 @@ body {
   padding: 10px
 }
 
-  input[type="submit"].receive-message {
+  input[type="button"].receive-message {
     background-color: #134d71;
     border: solid;
     color: #ffffff;
