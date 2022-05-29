@@ -20,21 +20,22 @@
 
         <form class="input-label" action="/assets/data.js" method="get">
           <div id="input-label">
-            <input type="radio" id="affirmation" name="random-message" value="affirmation"
-                   checked>
-            <label for="affirmation"><em>affirmation</em></label>
+            <input type="radio" name="message" id="radio1" value="affirmation">
+            <label for="radio1"><em>affirmation</em></label>
             <span style="display:inline-block;margin-left:200px"></span>
           </div>
           <div id="input-label">
-            <input type="radio" id="mantra" name="random-message" value="mantra">
-            <label for="dewey"><em>mantra</em></label>
+            <input type="radio" name="message" id="radio2" value="mantra">
+            <label for="radio2"><em>mantra</em></label>
           </div>
 
         </form>
-        <div id="blue-button">
-          <input type="button" class="receive-message" type="submit" value="Receive Message">
-        </div>
 
+          <button type="button" class="receive-message" value="Receive Message">
+            Receive Message</button>
+          <!-- <button type="button" onclick="displayRadioValue()">
+        Submit
+    </button> -->
       </section>
 
       <br>
@@ -44,7 +45,13 @@
 
       <section class="second-box">
         <img src="assets/meditate.svg" alt="person in meditation">
+         <section class="view view-message hidden">
+           <div id="result">
+             <p> This is a placeholder </p>
+           </div>
+         </section>
       </section>
-    <script type="text/javascript" src="main.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/main.js"></script>
   </body>
 </html>

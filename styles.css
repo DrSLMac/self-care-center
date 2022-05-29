@@ -39,13 +39,17 @@ body {
     text-align: center
   }
 
+input[type=radio], input[type=checkbox] {
+  transform: scale(1);
+}
+
 #input-label {
   display: inline;
   justify-content: space-between;
   padding: 10px
 }
 
-  input[type="button"].receive-message {
+button {
     background-color: #134d71;
     border: solid;
     color: #ffffff;
