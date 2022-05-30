@@ -22,7 +22,7 @@ body {
     color: #ffffff;
   }
 
-  .box {
+  .firstBox {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ button {
     border-radius: 8px
   }
 
-  .second-box {
+  .secondBox {
     display: flex;
     justify-content: center;
     align-items: center;
