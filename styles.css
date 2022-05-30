@@ -76,7 +76,8 @@ button {
     text-align: center
   }
 
-  img {
+  .lotusPose {
+    display: flex;
     width: 9%;
     height: auto;
   }
