@@ -79,8 +79,12 @@ button {
   img {
     width: 9%;
     height: auto;
-
   }
+
+  .hidden {
+    display: none;
+  }
+
 COLORS {
   light-yellow - #f7e4bf;
   light-blue - #78a7c6;
