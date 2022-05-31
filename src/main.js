@@ -81,4 +81,5 @@ function clearAllRadios() {
 function clickToClearButton() {
   homeView();
   clearAllRadios();
+  location.reload();
 }
